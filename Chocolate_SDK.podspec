@@ -10,7 +10,8 @@ LICENSE
 }
 s.homepage     = "http://www.vdopia.com/mobile/"
 s.author       = "Team"
-s.platform     = :ios, "11.2"
+s.platform     = :ios
+s.ios.deployment_target = "11.2"
 s.source       = {:git => 'https://bitbucket.org/vdopia/sdkdistribution.git',:tag => '4.0'}
 s.source_files  = "**/*.{h,m}",
 s.resources = "**/*.{txt,js}"
